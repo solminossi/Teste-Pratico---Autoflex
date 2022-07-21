@@ -6,10 +6,10 @@ var logger = require('morgan');
 var methodOverride = require('method-override');
 var session = require('express-session');
 
-var indexRouter = require('./src/routes/index');
+var indexRouter = require('./routes/index');
 var usersRouter = require('./src/routes/users');
-var autoflexRouter = require('./src/routes/autoflex');
-var produtosRouter = require('./src/routes/produtos');
+var autoflexRouter = require('./routes/autoflex');
+var produtosRouter = require('./routes/produtos');
 
 var app = express();
 

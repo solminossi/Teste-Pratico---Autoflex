@@ -1,4 +1,4 @@
-const AutoflexModel = require('../models/autoflexModel.js');
+const AutoflexModel = require('../src/models/autoflexModel.js.js.js');
 
 const AutoflexController = {
   index: (req, res) => {
