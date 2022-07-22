@@ -23,12 +23,12 @@
         <tbody>
           <% servicos.forEach(servico => { %>
           <tr>
-            <td><%= servico.nome %> </td>
-            <td><%= servico.valor %> </td>
-            <td><%= servico.descricao %> </td>
+            <td><%= produto.nome %> </td>
+            <td><%=produto.valor %> </td>
+            <td><%= produto.descricao %> </td>
             <td class="acoes">
               <form action="#" method="POST">
-                <a href="/servicos/editar/<%= servico.id %>" class="btn">Editar</a>
+                <a href="/produto/editar/<%= produto.id %>" class="btn">Editar</a>
                 <button type="submit" class="btn btn-secondary">Deletar</button>
               </form>
             </td>
